@@ -82,17 +82,32 @@ ul {
   .container {
     width: 700px;
   }
+
+  .nav_bar {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }
 
 @media (max-width: 720px) {
   .container {
     width: 500px;
   }
+
+  .nav_bar {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
 
 @media (max-width: 540px) {
   .container {
     width: 300px;
+  }
+
+  .nav_bar {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
